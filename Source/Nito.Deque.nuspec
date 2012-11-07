@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+ <metadata>
+  <id>Nito.Deque</id>
+  <version>1.0.0</version>
+  <title>A double-ended queue, with amortized O(1) access to both front and back.</title>
+  <authors>Stephen Cleary</authors>
+  <owners>Stephen Cleary</owners>
+  <summary>A double-ended queue (deque), which provides O(1) indexed access, O(1) removals from the front and back, amortized O(1) insertions to the front and back, and O(N) insertions and removals anywhere else (with the operations getting slower as the index approaches the middle). This is a source package.</summary>
+  <description>A double-ended queue (deque), which provides O(1) indexed access, O(1) removals from the front and back, amortized O(1) insertions to the front and back, and O(N) insertions and removals anywhere else (with the operations getting slower as the index approaches the middle). This is a source package.</description>
+  <language>en-US</language>
+  <projectUrl>http://nitodeque.codeplex.com/</projectUrl>
+  <releaseNotes>
+  </releaseNotes>
+ </metadata>
+ <files>
+  <file src="PortableClassLibrary\Deque.cs" target="content" />
+ </files>
+</package>
