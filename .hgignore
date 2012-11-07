@@ -1,0 +1,6 @@
+syntax: glob
+Binaries/**
+**/bin/**
+**/obj/**
+**/TestResults/**
+*.suo
