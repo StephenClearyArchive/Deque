@@ -4,7 +4,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C8AE1B13-8CB1-415C-B3F1-1DC114685609}"
 	ProjectSection(SolutionItems) = preProject
 		Build.ps1 = Build.ps1
-		Nito.Deque.nuget = Nito.Deque.nuget
+		Nito.Deque.nuspec = Nito.Deque.nuspec
 		Update NuGet.ps1 = Update NuGet.ps1
 	EndProjectSection
 EndProject
