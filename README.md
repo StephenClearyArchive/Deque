@@ -1,10 +1,12 @@
+# Note: An updated version of this project is [here](https://github.com/StephenCleary/Deque).
+
 # Deque
 
 A simple double-ended queue (deque) in C#. Unit tested.
 
 This deque provides O(1) indexed access, O(1) removals from the front and back, amortized O(1) insertions to the front and back, and O(N) insertions and removals anywhere else (with the operations getting slower as the index approaches the middle).
 
-The project is available [via NuGet](http://nuget.org/packages/Nito.Deque). The `Deque<T>` class has the following signature (in addition to the members of `IList<T>` and `IList`):
+The project is available [via NuGet](http://nuget.org/packages/Nito.Deque) as a C# source package. The package will install a single source file that defines an internal `Deque<T>` class with the following signature (in addition to the members of `IList<T>` and `IList`):
 
 ````C#
 internal sealed class Deque<T> : IList<T>, System.Collections.IList
